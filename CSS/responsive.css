@@ -1,0 +1,132 @@
+@media only screen and (max-width:1345px){
+    .nav-list{
+        flex-direction:column;
+
+       
+    }
+    
+    .navbar{
+        flex-direction:column;
+        transition: all 1s ease-out;
+        height:350px;
+
+        
+    }
+    .h-nav{
+        height:40px;
+    }
+    .hamburger{
+        display:block;
+    }
+    .invisible{
+        opacity:0;
+    }
+    .navbar{
+       
+            background:rgba(0,0,0,0.7) url("../IMAGES/dumbbells.jpg");
+            background-size:cover;
+            background-blend-mode:darken;
+        }
+    
+    .right-nav{
+        justify-content: center;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:1015px){
+    .background{
+        background:rgba(0,0,0,0.5) url("../IMAGES/training_2.jpg");
+        background-size:cover;
+        background-blend-mode:darken;
+    }
+}
+
+@media only screen and (max-width:1002px){
+    .left{
+        width:100%;
+    }
+    .right{
+        width:0%;
+    }
+    
+}
+
+@media only screen and (max-width:754px){
+    
+    .right img{
+        display:none;
+    }
+    
+}
+
+@media only screen and (max-width:842px){
+    
+    .services-img img{
+        height:250px;
+    }
+    
+}
+
+@media only screen and (max-width:512px){
+    
+    .services-img img{
+        height:150px;
+    }
+} 
+
+@media only screen and (max-width:745px){
+    
+    .main-box{
+       padding:100px;
+    }
+    
+}
+
+@media only screen and (max-width:745px){
+    
+    .main-box{
+       padding:40px;
+    }
+    
+}
+
+@media only screen and (max-width:842px){
+    
+    .logo-contact img{
+        display:none;
+    }
+    
+}
+
+@media only screen and (max-width:558px){
+    
+    .contact-form .items input{
+        width:300px;
+    }
+    
+}
+@media only screen and (max-width:788px){
+    
+    .section-1{
+        height:60vh;
+        
+    }
+    
+}
+@media only screen and (max-width:842px){
+    
+    .contact-section{
+        height:60vh;
+        
+    }
+    
+}
+@media only screen and (max-width:842px){
+    
+    .social-links a img{
+        height: 30px;
+    }
+    
+}
+       

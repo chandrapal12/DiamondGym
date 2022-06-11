@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+html{
+    font-size:65.5%;
+}
+/* <==============================NAVIGATIONAL BAR=====================> */
+
+.navbar{
+    display:flex;
+    background-color:black;
+    position:sticky;
+    top:0px;
+   
+}
+
+.nav-list{
+    display:flex;
+    align-items: center;
+    min-width:65%;
+    /* background-color:tomato; */
+}
+.nav-list li{
+    list-style:none;
+    margin:0px 20px;
+}
+.nav-list li a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+   
+    
+}
+
+.nav-list li a:hover{
+    color: white;
+    text-decoration:underline;
+    
+}
+.logo img{
+    height:80px;
+    margin:10px;
+}
+.right-nav{
+    display:flex;
+    align-items: center;
+    width:35%;
+    /* background-color:grey; */
+    justify-content: right;
+    
+}
+.btn{
+    padding:8px;
+    background-color:yellow;
+    margin:15px;
+    border-width:1px;
+    cursor: pointer;
+    font-style:italic;
+    font-weight:bolder;
+}
+.background{
+    background:rgba(0,0,0,0.5) url("../IMAGES/training.jpg");
+    background-size:cover;
+    background-blend-mode:darken;
+}
+/* <=================================HAMBURGER ICON============================> */
+
+.hamburger{
+    display:none;
+position: absolute;
+right:20px;
+top:10px;
+}
+
+.line{
+   
+    width:30px;
+    height:2px;
+    background-color:white;
+    margin-top:4px;
+
+}
+
+
+
+
+
+
+/* <============================SECTION-1========================> */   
+
+.section-1{
+    height:100vh;
+    
+}
+.main-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    max-width:50%;
+    margin:auto;
+    padding:200px;
+    color:white;
+}
+.p-1{
+    font-size:30px;
+    margin-bottom:10px;
+    font-family: 'Joan', serif;
+    
+
+}
+.p-2{
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:10px;
+    
+}
+.right img{
+    height: 100px;
+    padding: 10px;
+}
+.left{
+    width:70%;
+    
+}
+.right{
+    width:30%;
+
+}
+
+/* <============================SECTION-2========================> */ 
+.container{
+    background-color:antiquewhite;
+    
+    
+}
+.paras{
+    /* color:white; */
+    color:black;
+   
+}
+
+.p-1-color{
+    color:red;
+}
+.heading{
+    /* color:white; */
+    color:black;
+    font-size: 30px;
+    text-align:center;
+    padding:3rem;
+    font-family: 'Noto Serif', serif;
+
+}
+.section-2{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:50px 100px 100px 100px;
+}
+.services-img img{
+   height:300px;
+   border-radius:20px;
+   padding:16px;
+}
+
+/* <============================SECTION-3========================> */ 
+
+.section-3{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:0px 100px 100px 100px;
+}
+/* <============================SECTION-4========================> */ 
+
+.section-4{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:0px 100px 30px 100px;
+    
+}
+
+/* <============================contact-section===============================>*/
+
+.contact-section{
+   height:90vh;
+   background-color:rgb(212, 207, 207);
+}
+.form-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-form .items{
+    padding:15px;
+    
+}
+.contact-form .items input{
+    width:50rem;
+    height:25px;
+    
+}
+.contact-form .items label{
+   
+    font-family:sans-serif; 
+}
+.contact-form .sbt input{
+    padding:4px 10px;
+    cursor: pointer;
+    border-radius:20px;
+}
+.contact-form .sbt input:hover{
+background-color:black;
+color:white;
+}
+.contact-section .sbt{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-contact img{
+    height:200px;
+    padding-left:100px ;
+}
+
+/* <=========================footer-section ===============================>*/
+
+.footer-section{
+    background-color:black;
+    height:40vh;
+}
+.social-links{
+    padding:20px;
+    
+  
+}
+.social-links a img{
+    height:60px;
+    padding:0px 10px;
+}
+.filter{
+    filter:invert(100%);
+}
+.links{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: space-evenly;
+    
+}
+.otherlinks{
+    padding-top:20px;
+    
+   
+}
+.otherlinks a{
+    text-decoration:none;
+    color:white;
+    font-size:2rem;
+    
+}
+.otherlinks a:hover{
+    color:greenyellow;
+    text-decoration:underline;
+}
+.copyRight{
+    text-align: center;
+    color:white;
+    font-size:20px;
+    padding:30px;
+}
